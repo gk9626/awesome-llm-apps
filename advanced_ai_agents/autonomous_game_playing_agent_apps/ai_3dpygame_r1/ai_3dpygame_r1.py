@@ -5,6 +5,7 @@ from agno.models.openai import OpenAIChat as AgnoOpenAIChat
 from langchain_openai import ChatOpenAI 
 import asyncio
 from browser_use import Browser
+from langchain_core.prompts import ChatPromptTemplate
 
 st.set_page_config(page_title="PyGame Code Generator", layout="wide")
 
